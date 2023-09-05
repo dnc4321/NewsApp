@@ -7,7 +7,7 @@ export class NewsItem extends Component {
     let altImgUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw-pXur1imGdCkaL7l57e5UXBuVA1bHetNag&usqp=CAU";
     return (
       <div className="my-3">
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card">
           <img src={imgUrl===null?altImgUrl:imgUrl} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
